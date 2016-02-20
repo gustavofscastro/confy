@@ -1,0 +1,477 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save-dev',
+1 verbose cli   'eslint-plugin-react',
+1 verbose cli   'eslint-config-airbnb' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of /home/ubuntu/workspace/package.json
+5 warn package.json confy@1.0.0 No repository field.
+6 warn package.json confy@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/body-parser/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/bower/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/eslint/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/eslint-config-airbnb/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/eslint-config-google/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/eslint-plugin-react/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/express/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/jade/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/morgan/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/stylus/package.json
+17 info package.json eslint-config-google@0.4.0 license should be a valid SPDX license expression
+18 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+19 verbose install eslint-plugin-react is installed as 4.0.0
+20 silly cache add args [ 'eslint-plugin-react', null ]
+21 verbose cache add spec eslint-plugin-react
+22 verbose install eslint-config-airbnb is installed as 5.0.1
+23 silly cache add args [ 'eslint-config-airbnb', null ]
+24 verbose cache add spec eslint-config-airbnb
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'eslint-plugin-react',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'eslint-plugin-react',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: '*',
+25 silly cache add   type: 'range' }
+26 silly addNamed eslint-plugin-react@*
+27 verbose addNamed "*" is a valid semver range for eslint-plugin-react
+28 silly addNameRange { name: 'eslint-plugin-react', range: '*', hasData: false }
+29 silly mapToRegistry name eslint-plugin-react
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+33 verbose addNameRange registry:https://registry.npmjs.org/eslint-plugin-react not in flight; fetching
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: 'eslint-config-airbnb',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'eslint-config-airbnb',
+34 silly cache add   rawSpec: '',
+34 silly cache add   spec: '*',
+34 silly cache add   type: 'range' }
+35 silly addNamed eslint-config-airbnb@*
+36 verbose addNamed "*" is a valid semver range for eslint-config-airbnb
+37 silly addNameRange { name: 'eslint-config-airbnb', range: '*', hasData: false }
+38 silly mapToRegistry name eslint-config-airbnb
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-airbnb
+42 verbose addNameRange registry:https://registry.npmjs.org/eslint-config-airbnb not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/eslint-plugin-react
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 10:04:18 PM
+46 verbose request id 9ffc9e997eed6e7e
+47 verbose etag "B3ZAKT6Z3T8ZRQD52IUTPA37M"
+48 http request GET https://registry.npmjs.org/eslint-plugin-react
+49 verbose request uri https://registry.npmjs.org/eslint-config-airbnb
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 10:04:18 PM
+52 verbose etag "AK4V61KJJ167TW6OCCR7P76C5"
+53 http request GET https://registry.npmjs.org/eslint-config-airbnb
+54 http 304 https://registry.npmjs.org/eslint-plugin-react
+55 silly get cb [ 304,
+55 silly get   { date: 'Sat, 20 Feb 2016 22:04:18 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     'cache-control': 'max-age=300',
+55 silly get     etag: '"B3ZAKT6Z3T8ZRQD52IUTPA37M"',
+55 silly get     age: '258',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-ord1721-ORD',
+55 silly get     'x-cache': 'HIT',
+55 silly get     'x-cache-hits': '1',
+55 silly get     'x-timer': 'S1456005858.426447,VS0,VE0',
+55 silly get     vary: 'Accept' } ]
+56 verbose etag https://registry.npmjs.org/eslint-plugin-react from cache
+57 verbose get saving eslint-plugin-react to /home/ubuntu/.npm/registry.npmjs.org/eslint-plugin-react/.cache.json
+58 http 304 https://registry.npmjs.org/eslint-config-airbnb
+59 silly get cb [ 304,
+59 silly get   { date: 'Sat, 20 Feb 2016 22:04:18 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     'cache-control': 'max-age=300',
+59 silly get     etag: '"AK4V61KJJ167TW6OCCR7P76C5"',
+59 silly get     age: '258',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-ord1732-ORD',
+59 silly get     'x-cache': 'HIT',
+59 silly get     'x-cache-hits': '1',
+59 silly get     'x-timer': 'S1456005858.424852,VS0,VE0',
+59 silly get     vary: 'Accept' } ]
+60 verbose etag https://registry.npmjs.org/eslint-config-airbnb from cache
+61 verbose get saving eslint-config-airbnb to /home/ubuntu/.npm/registry.npmjs.org/eslint-config-airbnb/.cache.json
+62 silly addNameRange number 2 { name: 'eslint-plugin-react', range: '*', hasData: true }
+63 silly addNameRange versions [ 'eslint-plugin-react',
+63 silly addNameRange   [ '1.0.0',
+63 silly addNameRange     '1.1.0',
+63 silly addNameRange     '1.2.0',
+63 silly addNameRange     '1.2.1',
+63 silly addNameRange     '1.2.2',
+63 silly addNameRange     '1.3.0',
+63 silly addNameRange     '1.4.0',
+63 silly addNameRange     '1.4.1',
+63 silly addNameRange     '1.5.0',
+63 silly addNameRange     '1.6.0',
+63 silly addNameRange     '1.6.1',
+63 silly addNameRange     '2.0.0',
+63 silly addNameRange     '2.0.1',
+63 silly addNameRange     '2.0.2',
+63 silly addNameRange     '2.1.0',
+63 silly addNameRange     '2.1.1',
+63 silly addNameRange     '2.2.0',
+63 silly addNameRange     '2.3.0',
+63 silly addNameRange     '2.4.0',
+63 silly addNameRange     '2.5.0',
+63 silly addNameRange     '2.5.1',
+63 silly addNameRange     '2.5.2',
+63 silly addNameRange     '2.6.0',
+63 silly addNameRange     '2.6.1',
+63 silly addNameRange     '2.6.2',
+63 silly addNameRange     '2.6.3',
+63 silly addNameRange     '2.6.4',
+63 silly addNameRange     '2.7.0',
+63 silly addNameRange     '2.7.1',
+63 silly addNameRange     '3.0.0',
+63 silly addNameRange     '3.1.0',
+63 silly addNameRange     '3.2.0',
+63 silly addNameRange     '3.2.1',
+63 silly addNameRange     '3.2.2',
+63 silly addNameRange     '3.2.3',
+63 silly addNameRange     '3.3.0',
+63 silly addNameRange     '3.3.1',
+63 silly addNameRange     '3.3.2',
+63 silly addNameRange     '3.4.0',
+63 silly addNameRange     '3.4.1',
+63 silly addNameRange     '3.4.2',
+63 silly addNameRange     '3.5.0',
+63 silly addNameRange     '3.5.1',
+63 silly addNameRange     '3.6.0',
+63 silly addNameRange     '3.6.1',
+63 silly addNameRange     '3.6.2',
+63 silly addNameRange     '3.6.3',
+63 silly addNameRange     '3.7.0',
+63 silly addNameRange     '3.7.1',
+63 silly addNameRange     '3.8.0',
+63 silly addNameRange     '3.9.0',
+63 silly addNameRange     '3.10.0',
+63 silly addNameRange     '3.11.0',
+63 silly addNameRange     '3.11.1',
+63 silly addNameRange     '3.11.2',
+63 silly addNameRange     '3.11.3',
+63 silly addNameRange     '3.12.0',
+63 silly addNameRange     '3.13.0',
+63 silly addNameRange     '3.13.1',
+63 silly addNameRange     '3.14.0',
+63 silly addNameRange     '3.15.0',
+63 silly addNameRange     '3.16.0',
+63 silly addNameRange     '3.16.1',
+63 silly addNameRange     '4.0.0-rc.0',
+63 silly addNameRange     '4.0.0-rc.1',
+63 silly addNameRange     '4.0.0' ] ]
+64 silly addNamed eslint-plugin-react@4.0.0
+65 verbose addNamed "4.0.0" is a plain semver version for eslint-plugin-react
+66 silly addNameRange number 2 { name: 'eslint-config-airbnb', range: '*', hasData: true }
+67 silly addNameRange versions [ 'eslint-config-airbnb',
+67 silly addNameRange   [ '0.0.1',
+67 silly addNameRange     '0.0.2',
+67 silly addNameRange     '0.0.4',
+67 silly addNameRange     '0.0.5',
+67 silly addNameRange     '0.0.6',
+67 silly addNameRange     '0.0.6-dev',
+67 silly addNameRange     '0.0.6-dev2',
+67 silly addNameRange     '0.0.7',
+67 silly addNameRange     '0.0.8',
+67 silly addNameRange     '0.0.9',
+67 silly addNameRange     '0.1.0',
+67 silly addNameRange     '0.1.1',
+67 silly addNameRange     '1.0.0',
+67 silly addNameRange     '1.0.2',
+67 silly addNameRange     '2.0.0',
+67 silly addNameRange     '2.1.0',
+67 silly addNameRange     '2.1.1',
+67 silly addNameRange     '3.0.0',
+67 silly addNameRange     '3.0.1',
+67 silly addNameRange     '3.0.2',
+67 silly addNameRange     '3.1.0',
+67 silly addNameRange     '4.0.0',
+67 silly addNameRange     '5.0.0',
+67 silly addNameRange     '5.0.1' ] ]
+68 silly addNamed eslint-config-airbnb@5.0.1
+69 verbose addNamed "5.0.1" is a plain semver version for eslint-config-airbnb
+70 silly cache afterAdd eslint-plugin-react@4.0.0
+71 verbose afterAdd /home/ubuntu/.npm/eslint-plugin-react/4.0.0/package/package.json not in flight; writing
+72 silly cache afterAdd eslint-config-airbnb@5.0.1
+73 verbose afterAdd /home/ubuntu/.npm/eslint-config-airbnb/5.0.1/package/package.json not in flight; writing
+74 verbose afterAdd /home/ubuntu/.npm/eslint-plugin-react/4.0.0/package/package.json written
+75 verbose afterAdd /home/ubuntu/.npm/eslint-config-airbnb/5.0.1/package/package.json written
+76 silly install resolved [ { name: 'eslint-plugin-react',
+76 silly install resolved     version: '4.0.0',
+76 silly install resolved     author:
+76 silly install resolved      { name: 'Yannick Croissant',
+76 silly install resolved        email: 'yannick.croissant+npm@gmail.com' },
+76 silly install resolved     description: 'React specific linting rules for ESLint',
+76 silly install resolved     main: 'index.js',
+76 silly install resolved     scripts:
+76 silly install resolved      { coveralls: 'cat ./reports/coverage/lcov.info | coveralls',
+76 silly install resolved        lint: 'eslint ./',
+76 silly install resolved        test: 'npm run lint && npm run unit-test',
+76 silly install resolved        'unit-test': 'istanbul cover --dir reports/coverage node_modules/mocha/bin/_mocha tests/**/*.js -- --reporter dot' },
+76 silly install resolved     files: [ 'LICENSE', 'README.md', 'index.js', 'lib' ],
+76 silly install resolved     repository:
+76 silly install resolved      { type: 'git',
+76 silly install resolved        url: 'git+https://github.com/yannickcr/eslint-plugin-react.git' },
+76 silly install resolved     homepage: 'https://github.com/yannickcr/eslint-plugin-react',
+76 silly install resolved     bugs: { url: 'https://github.com/yannickcr/eslint-plugin-react/issues' },
+76 silly install resolved     devDependencies:
+76 silly install resolved      { 'babel-eslint': '5.0.0',
+76 silly install resolved        coveralls: '2.11.6',
+76 silly install resolved        eslint: '2.2.0',
+76 silly install resolved        istanbul: '0.4.2',
+76 silly install resolved        mocha: '2.4.5' },
+76 silly install resolved     keywords: [ 'eslint', 'eslint-plugin', 'eslintplugin', 'react' ],
+76 silly install resolved     license: 'MIT',
+76 silly install resolved     gitHead: 'c392099e78b5696235e88f4138f3942a0ab4969c',
+76 silly install resolved     _id: 'eslint-plugin-react@4.0.0',
+76 silly install resolved     _shasum: 'e2aec37c97fbddd7d2d430f5029deef0459d47c7',
+76 silly install resolved     _from: 'eslint-plugin-react@*',
+76 silly install resolved     _npmVersion: '3.2.2',
+76 silly install resolved     _nodeVersion: '4.0.0',
+76 silly install resolved     _npmUser: { name: 'yannickcr', email: 'yannick.croissant+npm@gmail.com' },
+76 silly install resolved     dist:
+76 silly install resolved      { shasum: 'e2aec37c97fbddd7d2d430f5029deef0459d47c7',
+76 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-4.0.0.tgz' },
+76 silly install resolved     maintainers: [ [Object] ],
+76 silly install resolved     _npmOperationalInternal:
+76 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+76 silly install resolved        tmp: 'tmp/eslint-plugin-react-4.0.0.tgz_1455908428055_0.9706678260117769' },
+76 silly install resolved     directories: {},
+76 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-4.0.0.tgz',
+76 silly install resolved     readme: 'ERROR: No README data found!' },
+76 silly install resolved   { name: 'eslint-config-airbnb',
+76 silly install resolved     version: '5.0.1',
+76 silly install resolved     description: 'Airbnb\'s ESLint config, following our styleguide',
+76 silly install resolved     main: 'index.js',
+76 silly install resolved     scripts:
+76 silly install resolved      { lint: 'eslint .',
+76 silly install resolved        'tests-only': 'babel-tape-runner ./test/test-*.js',
+76 silly install resolved        test: 'parallelshell \'npm run lint\' \'npm run tests-only\'' },
+76 silly install resolved     repository:
+76 silly install resolved      { type: 'git',
+76 silly install resolved        url: 'git+https://github.com/airbnb/javascript.git' },
+76 silly install resolved     keywords:
+76 silly install resolved      [ 'eslint',
+76 silly install resolved        'eslintconfig',
+76 silly install resolved        'config',
+76 silly install resolved        'airbnb',
+76 silly install resolved        'javascript',
+76 silly install resolved        'styleguide' ],
+76 silly install resolved     author: { name: 'Jake Teton-Landis', url: 'https://twitter.com/@jitl' },
+76 silly install resolved     contributors: [ [Object], [Object] ],
+76 silly install resolved     license: 'MIT',
+76 silly install resolved     bugs: { url: 'https://github.com/airbnb/javascript/issues' },
+76 silly install resolved     homepage: 'https://github.com/airbnb/javascript',
+76 silly install resolved     devDependencies:
+76 silly install resolved      { 'babel-tape-runner': '1.2.0',
+76 silly install resolved        eslint: '^1.10.3',
+76 silly install resolved        'eslint-plugin-react': '^3.16.1',
+76 silly install resolved        react: '^0.14.7',
+76 silly install resolved        tape: '^4.4.0',
+76 silly install resolved        parallelshell: '^2.0.0' },
+76 silly install resolved     peerDependencies: { eslint: '^1.0.0', 'eslint-plugin-react': '^3.16.1' },
+76 silly install resolved     _id: 'eslint-config-airbnb@5.0.1',
+76 silly install resolved     _shasum: '7add3a07296043f5f68a53fad82225302800c453',
+76 silly install resolved     _from: 'eslint-config-airbnb@*',
+76 silly install resolved     _npmVersion: '3.3.12',
+76 silly install resolved     _nodeVersion: '5.5.0',
+76 silly install resolved     _npmUser: { name: 'ljharb', email: 'ljharb@gmail.com' },
+76 silly install resolved     dist:
+76 silly install resolved      { shasum: '7add3a07296043f5f68a53fad82225302800c453',
+76 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-5.0.1.tgz' },
+76 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+76 silly install resolved     _npmOperationalInternal:
+76 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+76 silly install resolved        tmp: 'tmp/eslint-config-airbnb-5.0.1.tgz_1455390738566_0.10851455572992563' },
+76 silly install resolved     directories: {},
+76 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-5.0.1.tgz',
+76 silly install resolved     readme: 'ERROR: No README data found!' } ]
+77 info install eslint-plugin-react@4.0.0 into /home/ubuntu/workspace
+78 info install eslint-config-airbnb@5.0.1 into /home/ubuntu/workspace
+79 info installOne eslint-plugin-react@4.0.0
+80 verbose installOne of eslint-plugin-react to /home/ubuntu/workspace not in flight; installing
+81 info installOne eslint-config-airbnb@5.0.1
+82 verbose installOne of eslint-config-airbnb to /home/ubuntu/workspace not in flight; installing
+83 verbose lock using /home/ubuntu/.npm/_locks/eslint-plugin-react-903bdf2e836268d7.lock for /home/ubuntu/workspace/node_modules/eslint-plugin-react
+84 verbose lock using /home/ubuntu/.npm/_locks/eslint-config-airbnb-7cbf0fb4557801b0.lock for /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+85 silly install write writing eslint-plugin-react 4.0.0 to /home/ubuntu/workspace/node_modules/eslint-plugin-react
+86 silly install write writing eslint-config-airbnb 5.0.1 to /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+87 verbose unbuild node_modules/eslint-plugin-react
+88 verbose unbuild node_modules/eslint-config-airbnb
+89 info preuninstall eslint-plugin-react@4.0.0
+90 info preuninstall eslint-config-airbnb@5.0.1
+91 info uninstall eslint-plugin-react@4.0.0
+92 info uninstall eslint-config-airbnb@5.0.1
+93 verbose unbuild rmStuff eslint-plugin-react@4.0.0 from /home/ubuntu/workspace/node_modules
+94 info postuninstall eslint-plugin-react@4.0.0
+95 verbose unbuild rmStuff eslint-config-airbnb@5.0.1 from /home/ubuntu/workspace/node_modules
+96 info postuninstall eslint-config-airbnb@5.0.1
+97 silly gentlyRm /home/ubuntu/workspace/node_modules/eslint-plugin-react is being purged from base /home/ubuntu/workspace
+98 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/eslint-plugin-react
+99 silly vacuum-fs purging /home/ubuntu/workspace/node_modules/eslint-plugin-react
+100 silly gentlyRm /home/ubuntu/workspace/node_modules/eslint-config-airbnb is being purged from base /home/ubuntu/workspace
+101 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+102 silly vacuum-fs purging /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+103 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/node_modules
+104 verbose tar unpack /home/ubuntu/.npm/eslint-config-airbnb/5.0.1/package.tgz
+105 verbose tar unpacking to /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+106 silly gentlyRm /home/ubuntu/workspace/node_modules/eslint-config-airbnb is being purged
+107 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+108 silly gunzTarPerm modes [ '755', '644' ]
+109 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/node_modules
+110 verbose tar unpack /home/ubuntu/.npm/eslint-plugin-react/4.0.0/package.tgz
+111 verbose tar unpacking to /home/ubuntu/workspace/node_modules/eslint-plugin-react
+112 silly gentlyRm /home/ubuntu/workspace/node_modules/eslint-plugin-react is being purged
+113 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/eslint-plugin-react
+114 silly gunzTarPerm modes [ '755', '644' ]
+115 silly gunzTarPerm extractEntry package.json
+116 silly gunzTarPerm extractEntry package.json
+117 silly gunzTarPerm extractEntry README.md
+118 silly gunzTarPerm extractEntry base.js
+119 silly gunzTarPerm extractEntry README.md
+120 silly gunzTarPerm extractEntry LICENSE
+121 silly gunzTarPerm extractEntry index.js
+122 silly gunzTarPerm extractEntry legacy.js
+123 silly gunzTarPerm extractEntry index.js
+124 silly gunzTarPerm extractEntry CHANGELOG.md
+125 silly gunzTarPerm extractEntry lib/rules/display-name.js
+126 silly gunzTarPerm extractEntry lib/rules/jsx-sort-prop-types.js
+127 silly gunzTarPerm extractEntry lib/rules/jsx-sort-props.js
+128 silly gunzTarPerm extractEntry lib/rules/jsx-space-before-closing.js
+129 silly gunzTarPerm extractEntry lib/rules/jsx-pascal-case.js
+130 silly gunzTarPerm extractEntry lib/rules/jsx-uses-vars.js
+131 silly gunzTarPerm extractEntry lib/rules/no-danger.js
+132 silly gunzTarPerm extractEntry lib/rules/no-deprecated.js
+133 silly gunzTarPerm extractEntry lib/rules/no-did-mount-set-state.js
+134 silly gunzTarPerm extractEntry lib/rules/no-did-update-set-state.js
+135 silly gunzTarPerm extractEntry lib/rules/jsx-no-undef.js
+136 silly gunzTarPerm extractEntry lib/rules/no-direct-mutation-state.js
+137 silly gunzTarPerm extractEntry lib/rules/jsx-no-literals.js
+138 silly gunzTarPerm extractEntry lib/rules/no-is-mounted.js
+139 silly gunzTarPerm extractEntry lib/rules/jsx-no-duplicate-props.js
+140 silly gunzTarPerm extractEntry lib/rules/no-multi-comp.js
+141 silly gunzTarPerm extractEntry lib/rules/jsx-no-bind.js
+142 silly gunzTarPerm extractEntry lib/rules/no-set-state.js
+143 silly gunzTarPerm extractEntry lib/rules/jsx-max-props-per-line.js
+144 silly gunzTarPerm extractEntry lib/rules/no-string-refs.js
+145 silly gunzTarPerm extractEntry lib/rules/jsx-key.js
+146 silly gunzTarPerm extractEntry lib/rules/no-unknown-property.js
+147 silly gunzTarPerm extractEntry lib/rules/jsx-indent.js
+148 silly gunzTarPerm extractEntry lib/rules/prefer-es6-class.js
+149 silly gunzTarPerm extractEntry lib/rules/jsx-indent-props.js
+150 silly gunzTarPerm extractEntry lib/rules/prop-types.js
+151 silly gunzTarPerm extractEntry lib/rules/jsx-handler-names.js
+152 silly gunzTarPerm extractEntry lib/rules/react-in-jsx-scope.js
+153 silly gunzTarPerm extractEntry lib/rules/jsx-equals-spacing.js
+154 silly gunzTarPerm extractEntry lib/rules/require-extension.js
+155 silly gunzTarPerm extractEntry lib/rules/jsx-curly-spacing.js
+156 silly gunzTarPerm extractEntry lib/rules/self-closing-comp.js
+157 silly gunzTarPerm extractEntry lib/rules/jsx-closing-bracket-location.js
+158 silly gunzTarPerm extractEntry lib/rules/sort-comp.js
+159 silly gunzTarPerm extractEntry lib/rules/jsx-boolean-value.js
+160 silly gunzTarPerm extractEntry lib/rules/sort-prop-types.js
+161 silly gunzTarPerm extractEntry lib/rules/forbid-prop-types.js
+162 silly gunzTarPerm extractEntry lib/rules/wrap-multilines.js
+163 silly gunzTarPerm extractEntry lib/rules/jsx-uses-react.js
+164 silly gunzTarPerm extractEntry lib/util/Components.js
+165 silly gunzTarPerm extractEntry lib/util/pragma.js
+166 silly gunzTarPerm extractEntry lib/util/variable.js
+167 silly gunzTarPerm extractEntry .eslintrc
+168 silly gunzTarPerm extractEntry CHANGELOG.md
+169 silly gunzTarPerm extractEntry rules/best-practices.js
+170 silly gunzTarPerm extractEntry rules/errors.js
+171 silly gunzTarPerm extractEntry rules/es6.js
+172 silly gunzTarPerm extractEntry rules/legacy.js
+173 silly gunzTarPerm extractEntry rules/node.js
+174 silly gunzTarPerm extractEntry rules/react.js
+175 silly gunzTarPerm extractEntry rules/strict.js
+176 silly gunzTarPerm extractEntry rules/style.js
+177 silly gunzTarPerm extractEntry rules/variables.js
+178 silly gunzTarPerm extractEntry rules/.eslintrc.json
+179 silly gunzTarPerm extractEntry test/test-base.js
+180 silly gunzTarPerm extractEntry test/test-react-order.js
+181 silly gunzTarPerm extractEntry test/.eslintrc
+182 verbose write writing to /home/ubuntu/workspace/node_modules/eslint-config-airbnb/package.json
+183 info preinstall eslint-config-airbnb@5.0.1
+184 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/eslint-config-airbnb/package.json
+185 silly prepareForInstallMany adding eslint@^1.0.0 from eslint-config-airbnb peerDependencies
+186 silly prepareForInstallMany adding eslint-plugin-react@^3.16.1 from eslint-config-airbnb peerDependencies
+187 warn peerDependencies The peer dependency eslint@^1.0.0 included from eslint-config-airbnb will no
+188 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+189 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+190 warn peerDependencies The peer dependency eslint-plugin-react@^3.16.1 included from eslint-config-airbnb will no
+191 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+192 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+193 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/eslint-config-airbnb/package.json
+194 silly install resolved []
+195 verbose about to build /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+196 info build /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+197 info linkStuff eslint-config-airbnb@5.0.1
+198 silly linkStuff eslint-config-airbnb@5.0.1 has /home/ubuntu/workspace/node_modules as its parent node_modules
+199 verbose linkBins eslint-config-airbnb@5.0.1
+200 verbose linkMans eslint-config-airbnb@5.0.1
+201 verbose rebuildBundles eslint-config-airbnb@5.0.1
+202 info install eslint-config-airbnb@5.0.1
+203 info postinstall eslint-config-airbnb@5.0.1
+204 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+205 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/body-parser/package.json
+206 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/bower/package.json
+207 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/eslint/package.json
+208 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/eslint-config-airbnb/package.json
+209 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/eslint-config-google/package.json
+210 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/eslint-plugin-react/package.json
+211 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/express/package.json
+212 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/jade/package.json
+213 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/morgan/package.json
+214 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/stylus/package.json
+215 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/bower/package.json
+216 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/eslint/package.json
+217 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/jade/package.json
+218 verbose targetResolver reading package data from /home/ubuntu/workspace/node_modules/.bin/stylus/package.json
+219 verbose already installed skipping eslint@^1.0.0 /home/ubuntu/workspace
+220 verbose already installed skipping eslint-plugin-react@^3.16.1 /home/ubuntu/workspace
+221 silly install resolved []
+222 verbose unlock done using /home/ubuntu/.npm/_locks/eslint-config-airbnb-7cbf0fb4557801b0.lock for /home/ubuntu/workspace/node_modules/eslint-config-airbnb
+223 verbose write writing to /home/ubuntu/workspace/node_modules/eslint-plugin-react/package.json
+224 info preinstall eslint-plugin-react@4.0.0
+225 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/eslint-plugin-react/package.json
+226 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/eslint-plugin-react/package.json
+227 silly install resolved []
+228 verbose about to build /home/ubuntu/workspace/node_modules/eslint-plugin-react
+229 info build /home/ubuntu/workspace/node_modules/eslint-plugin-react
+230 info linkStuff eslint-plugin-react@4.0.0
+231 silly linkStuff eslint-plugin-react@4.0.0 has /home/ubuntu/workspace/node_modules as its parent node_modules
+232 verbose linkBins eslint-plugin-react@4.0.0
+233 verbose linkMans eslint-plugin-react@4.0.0
+234 verbose rebuildBundles eslint-plugin-react@4.0.0
+235 info install eslint-plugin-react@4.0.0
+236 info postinstall eslint-plugin-react@4.0.0
+237 verbose unlock done using /home/ubuntu/.npm/_locks/eslint-plugin-react-903bdf2e836268d7.lock for /home/ubuntu/workspace/node_modules/eslint-plugin-react
+238 verbose validateInstall loading /home/ubuntu/workspace/package.json for validation
+239 verbose stack Error: The package eslint-plugin-react@4.0.0 does not satisfy its siblings' peerDependencies requirements!
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/install.js:125:32
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/install.js:268:7
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+239 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+239 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.1.1/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+240 verbose cwd /home/ubuntu/workspace
+241 error Linux 4.2.0-c9
+242 error argv "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm" "i" "--save-dev" "eslint-plugin-react" "eslint-config-airbnb"
+243 error node v4.1.1
+244 error npm  v2.14.4
+245 error code EPEERINVALID
+246 error peerinvalid The package eslint-plugin-react@4.0.0 does not satisfy its siblings' peerDependencies requirements!
+246 error peerinvalid Peer eslint-config-airbnb@5.0.1 wants eslint-plugin-react@^3.16.1
+247 verbose exit [ 1, true ]
